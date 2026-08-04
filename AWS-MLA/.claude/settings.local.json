@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c ' *)",
+      "PowerShell(& \"C:\\\\Users\\\\keiji.fujino.dn\\\\AppData\\\\Local\\\\Python\\\\bin\\\\pip.exe\" install openpyxl 2>&1 | Select-Object -Last 3)",
+      "Bash(pip install *)",
+      "Bash(python3 -c ' *)",
+      "Bash(powershell -Command ' *)",
+      "PowerShell(New-Item *)",
+      "PowerShell(Get-Content *)"
+    ]
+  }
+}
